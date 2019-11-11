@@ -1,0 +1,41 @@
+page{
+  width:750rpx;
+  height:100%;
+}
+.big-logos {
+    float: left;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    width: 100%;
+    height: 200rpx;
+    border: 1px solid #ccc;
+  }
+  .big-logos .big-logos_img {
+    float: left;
+    width: 100%;
+    height: 200rpx;
+  }
+  .big-logos .big-logos_img image {
+    float: left;
+    width: 250rpx;
+    height: 200rpx;
+  }
+  button {
+    width: 80%;
+    margin-top: 300rpx;
+    background-color:#ffcc66;
+    color: white;
+    border-radius: 98rpx; 
+  }
+  .big-logos .logoinfo {
+    float: left;
+   width: 250rpx;
+    height: 200rpx;
+    margin-top: -196rpx;
+  }
+  .big-logos .logoinfo image {
+    float: left;
+    width: 250rpx;
+    height: 200rpx;
+  }
+ 

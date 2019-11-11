@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-toast": "../../dist/toast/index"
+  }
+}

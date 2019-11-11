@@ -1,0 +1,54 @@
+.in{
+    background-color:#ffffff;
+    display:flex;
+    justify-content:center;
+
+  
+  }
+  .left-in{
+    color: #f9364f;
+  }
+  .right-in{
+      color: #9a9a9a;
+  
+  }
+  .record{
+
+    background-color:#ffffff;
+
+  }
+
+  .action{
+  color:#353535;
+  display:flex;
+  justify-content:center;
+  }
+
+  .time{
+    color:#999999;
+    font-size:13px;
+    float:right;
+  }
+  .detail{
+    margin-left:5px;
+  }
+  .succerr{
+    float:right;
+    color:#999999;
+    font-size:13px;
+  }
+  .tips{
+    margin-top:20px;
+    color:#999999;
+    padding:0 10px;
+  }
+  .shortintro{
+  color:#595959;
+  
+  }
+
+.divLine{
+    background: #0094ff;
+    width: 100%;
+    height: 5rpx;
+   }

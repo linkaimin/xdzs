@@ -1,0 +1,22 @@
+<view wx:for="{{list}}" wx:key="list">
+<navigator url="../detail/detail?id={{item.id}}" open-type="navigate" >
+  <view class="title">{{item.title}}</view>
+  <view class="pic">
+  <image style="width:30%;height:69px;" src="{{item.pic}}"/>
+
+  <view class="info">
+    <view class="desc">
+
+       <text>{{item.viewsNumber}}条评论</text>
+       <text>{{item.time}}</text>
+       <text>楼主：{{item.writer}}</text>
+
+    <view class="opr">
+
+    </view>
+  </view>
+  </view>
+</view>
+<view class="hr"></view>
+</navigator>
+</view>

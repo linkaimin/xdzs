@@ -1,0 +1,157 @@
+.bg{
+  background-color: #0094ff;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.name{
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40rpx;
+  padding-right: 15rpx;
+  padding-left: 15rpx;
+}
+.search{
+  width:70%;
+  display: flex;
+  flex-direction: row;
+  border:1px solid #cccccc;
+  height: 25px;
+  margin-right:10px;
+  background-color: #F6F5F3;
+  border-radius: 5px;
+  align-items: center; 
+}
+.search image{
+  margin-left: 10px;
+}
+.search input{
+  margin-left: 10px;
+  font-size: 13px;
+}
+.navbg{
+  background-color: #F6F5F3;
+  height: 36px;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav{
+  width: 85%;
+  height: 36px;
+}
+.add{
+  width:15%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+  text-align: right;
+  margin-right: 10px;
+}
+.scroll-view_H{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-left:5px; 
+}
+.select{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.normal{
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+.item{
+  margin:10px;
+}
+.title{
+  color: #444444;
+  font-weight: bold;
+  font-size: 18px;
+}
+.pic image{
+  margin-right: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #999999;
+}
+.desc{
+  width:90%;
+}
+.desc text{
+  margin-right: 10px;
+}
+.opr{
+  width:10%;
+}
+.opr view{
+  width:17px;
+  height: 12px;
+  border:1px solid #cccccc;
+  line-height: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.hr{
+  border:1px solid #cccccc;
+  opacity: 0.2;
+  margin-top:10px;
+}
+.write{
+  width: 50%;
+  margin-left: 10px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+.input{
+  margin-left: 10px;
+  border: 1rpx solid #ffcc66;
+  border-radius: 8px;
+  background:#fff;
+}
+
+.btn{
+  margin-left: 350rpx;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  font-size: 28rpx;
+  color:#ffffff;
+  background-color: #0158f8;
+
+
+}
+.comment{
+  width:100%;
+  height: 60px;
+  background-color: #F4F5F7;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.find{
+  width: 50px;
+  height: 25px;
+  border: 0 solid #ffffff;
+  font-size: 22rpx;
+  padding: 0px;
+
+}

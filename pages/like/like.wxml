@@ -1,0 +1,24 @@
+<text >\n</text>
+<Select prop-array='{{selectArray}}' bind:myget='getDate1' now-text='历史与文化'></Select>
+
+<Select prop-array='{{selectArray2}}' bind:myget='getDate2' now-text='艺术与审美'></Select>
+
+<Select prop-array='{{selectArray3}}' bind:myget='getDate3' now-text='数学与自然科学'></Select>
+
+<Select prop-array='{{selectArray4}}' bind:myget='getDate4' now-text='社会、经济与管理'></Select>
+
+<Select prop-array='{{selectArray5}}' bind:myget='getDate5' now-text='创新创业'> </Select>
+
+<Select prop-array='{{selectArray6}}' bind:myget='getDate6' now-text='其他'></Select>
+<form bindsubmit="formSubmit">
+ 
+<input class="input" disabled="ture" name="like1" value="{{likeSome1}}">{{likeSome1}}</input> 
+<input class="input" disabled="ture" name="like2" value="{{likeSome2}}">{{likeSome2}}</input>
+<input class="input" disabled="ture" name="like3" value="{{likeSome3}}">{{likeSome3}}</input>
+<input class="input" disabled="ture" name="like4" value="{{likeSome4}}">{{likeSome4}}</input>
+<input class="input" disabled="ture" name="like5" value="{{likeSome5}}">{{likeSome5}}</input>
+<input class="input" disabled="ture" name="like6" value="{{likeSome6}}">{{likeSome6}}</input>
+<text class="txt">(点击提交按钮即可投票，一天只能进行一次投票哦！)</text>
+<button type="ghost"  open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="buttonForm" disabled="{{disabled}}" id="btn" class="btn" form-type="submit" >提交</button>
+</form> 
+<i-toast id="toast" />

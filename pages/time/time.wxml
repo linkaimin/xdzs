@@ -1,0 +1,101 @@
+<i-cell title="当前时间为：" style="color:#696969" >{{time}}</i-cell>
+<i-grid>
+<navigator url="../timeC/timeC?name=gongdian">
+    <i-grid-item>
+        <i-grid-icon>
+            <image wx:if="{{gongdian}}" src="{{gongdian}}" />
+        </i-grid-icon>
+        <i-grid-label>供电</i-grid-label>
+    </i-grid-item>
+</navigator>  
+<navigator url="../timeC/timeC?name=book"> 
+    <i-grid-item>
+     <i-grid-icon>
+            <image  wx:if="{{book}}" src="{{book}}" />
+        </i-grid-icon>
+        <i-grid-label>图书馆(阅览区)</i-grid-label>
+    </i-grid-item>
+</navigator>  
+<navigator url="../timeC/timeC?name=swim"> 
+    <i-grid-item>
+     <i-grid-icon>
+            <image src="{{swim}}" wx:if="{{swim}}"/>
+        </i-grid-icon>
+        <i-grid-label>游泳馆</i-grid-label>
+    </i-grid-item>
+</navigator>  
+</i-grid>
+
+<i-grid>
+
+<navigator url="../timeC/timeC?name=water"> 
+    <i-grid-item>
+        <i-grid-icon>
+            <image src="{{water}}" wx:if="{{water}}"/>
+        </i-grid-icon>
+        <i-grid-label>浴池</i-grid-label>
+    </i-grid-item>
+    </navigator>  
+<navigator url="../timeC/timeC?name=hospital"> 
+    <i-grid-item>
+     <i-grid-icon>
+            <image src="{{hospital}}" wx:if="{{hospital}}"/>
+        </i-grid-icon>
+        <i-grid-label>校医院（门诊）</i-grid-label>
+    </i-grid-item>
+    </navigator>  
+<navigator url="../timeC/timeC?name=eat"> 
+    <i-grid-item>
+     <i-grid-icon>
+            <image src="{{eat}}" wx:if="{{eat}}"/>
+        </i-grid-icon>
+        <i-grid-label>食堂</i-grid-label>
+    </i-grid-item>
+    </navigator>  
+
+</i-grid>
+<text>\n</text>
+<i-card title="小贴士"  >
+    <view slot="content">当图标为彩色时，表示该场所在可使用时间，当图标为灰色时，表示该场所不在可使用时间，点击图标可以查看该场所最新通知!</view>
+    <view slot="footer"></view>
+</i-card>
+<text>\n</text>
+<view class="caption-wrap" style="font-size:30rpx; color:#696969">
+<text>\n</text>
+    <i-collapse >
+        <i-collapse-item title="供电时间" name="name1">
+            <view slot="content">
+                 周一至周五 5：30-8:00 11:30-13:00 15:30-22:30 周六、周日 5：30-23:00
+            </view>
+        </i-collapse-item>
+        <i-collapse-item title="图书馆（阅览区）开放时间" name="name2">
+            <view slot="content" i-class-content="green-text">
+            周一至周日 8:00-21:30（周三12:00-18:00闭馆）
+            </view>
+        </i-collapse-item>
+        <i-collapse-item title="游泳馆开放时间" name="name3">
+            <view slot="content">
+              周一至周日 6：00－19：30
+            </view>
+        </i-collapse-item>
+    </i-collapse>
+    <i-collapse >
+        <i-collapse-item title="浴池开放时间" name="name1">
+            <view slot="content">
+               周二至周五 11:00－20:00 周六、周日 9:00－20:00（周一休息）
+            </view>
+        </i-collapse-item>
+        <i-collapse-item title="校医院(门诊)开放时间" name="name2">
+            <view slot="content" i-class-content="green-text">
+               周一至周日 8:00－11:30 13:30－17:00
+            </view>
+        </i-collapse-item>
+        <i-collapse-item title="食堂开放时间" name="name3">
+            <view slot="content">
+               周一至周日 6:00－21:30
+            </view>
+        </i-collapse-item>
+    </i-collapse>
+</view>
+
+

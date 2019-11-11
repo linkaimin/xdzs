@@ -1,0 +1,5 @@
+<text>\n</text>
+<i-card title="{{title}}">
+    <view slot="content">{{detail}}</view>
+    <view slot="footer">{{time}}</view>
+</i-card>

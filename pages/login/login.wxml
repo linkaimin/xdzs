@@ -1,0 +1,20 @@
+ <view class = 'backpicture'>
+  <text> \n </text>
+
+  
+    <text> \n </text>
+  <i-card title="今日天气小提示" class="mycard">
+   <text> \n </text>
+    <view slot="content">
+  <view class="weather"> 
+  <text>{{weatherData}}</text> 
+    <text> \n </text>
+</view>
+
+   <view slot="footer">今天又是美好的一天! </view>
+</view>
+</i-card >
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击这里即可跳转首页</button>
+
+
+</view>

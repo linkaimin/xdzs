@@ -1,0 +1,8 @@
+/* pages/complain/complain.wxss */
+button {
+    width: 80%;
+    margin-top: 20rpx;
+    background-color:#ffcc66;
+    color: white;
+    border-radius: 98rpx; 
+  }

@@ -1,0 +1,28 @@
+
+<view class="head" style="flex-direction:row;">
+ <text>\n</text>
+  <text>\n</text>
+    <button bindtap="openLocation">打开位置</button>
+    <button bindtap="starRun">开始跑步</button>
+    <button bindtap="stopRun">停止跑步</button>
+    <text>\n</text>
+    <view class="page-body">
+    <text style="color:#708090">里程数：{{meters}}km  </text>
+    <text style="color:#708090">   时间：{{time}}</text>
+   </view>
+</view>
+ <text>\n</text>
+  <text>\n</text>
+<view class="mainView">
+   <map
+        class="mapView"
+        style="width: 100%; height: 375px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        markers="{{markers}}"
+        covers="{{covers}}"
+        >
+    </map>
+
+</view>
+

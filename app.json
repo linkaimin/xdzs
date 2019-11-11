@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/run/run",
+    "pages/time/time",
+    "pages/timeC/timeC",
+    "pages/detail/detail",
+    "pages/complain/complain",
+    "pages/damage/damage",
+    "pages/rank/rank",
+    "pages/like/like",
+    "pages/myrun/myrun",
+    "pages/find/find",
+    "pages/img/img",
+    "pages/version/version",
+    "pages/function/function",
+    "pages/my/my",
+    "pages/news/news"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于天气预报效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "小东助手",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#fff"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#fff",
+    "backgroundColor": "#0094ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home2.png"
+      },
+      {
+        "pagePath":"pages/list/list",
+        "text": "论坛",
+        "iconPath": "icon/work.png",
+        "selectedIconPath": "icon/work2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人空间",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my2.png"
+      }
+    ]
+  }
+}

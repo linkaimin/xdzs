@@ -1,0 +1,13 @@
+<text >\n</text>
+<view wx:for="{{list}}" wx:key="list">
+<i-card title="我的帖子" >
+    <view slot="content">
+    <navigator url="../detail/detail?id={{item.id}}" open-type="navigate" >
+    {{item.title}}
+    </navigator>  
+    </view>
+    <view slot="footer" bindtap="delete" id="{{item.id}}">删除帖子</view>
+</i-card>
+<text >\n</text>
+</view>
+<i-toast id="toast" />

@@ -1,0 +1,5 @@
+ <view class = 'backpicture'>
+ <i-cell title="版本信息" is-link url="../../pages/version/version"></i-cell>
+  <i-cell title="功能介绍" is-link url="../../pages/function/function"></i-cell>
+   <i-cell title="个人消息" is-link url="../../pages/news/news"></i-cell>
+</view>

@@ -1,0 +1,22 @@
+ <view class = 'backpicture'>
+     
+<text> \n </text>
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <i-input name="userName" type="textarea"  title="报修人" autofocus placeholder="姓名" />
+    <i-input name="userNum" type="textarea"  title="学号" placeholder="请输入" />
+    <i-input name="userPhone" type="textarea"  title="联系电话" placeholder="请输入手机号" />
+    <i-input name="areaLocation"  type="texarea" title="损坏地点" placeholder="如：丹青楼 120"/>
+    <i-input name="areaContext" type="textarea" title="报修内容" placeholder="如：中间第三排桌子断裂，有安全隐患" />
+<text> \n </text>
+<i-card title="小贴士">
+<view slot="content">
+    <text class="tip">在这里可以报修学校的相关设施问题，请一定要详细填写损坏地点和损坏程度哦，这样问题才能得到最快的解决！</text></view>
+</i-card>
+<text> \n </text>
+<text> \n </text>
+<text> \n </text>
+<text> \n </text>
+<button form-type="submit" type="ghost" >提交</button>
+</form>
+</view>
+<i-toast id="toast" />

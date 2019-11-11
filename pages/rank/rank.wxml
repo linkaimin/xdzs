@@ -1,0 +1,16 @@
+ <view class = 'backpicture'>
+<text>\n</text>
+<navigator url="../like/like">
+<button>投票入口</button>
+<text>\n</text>
+</navigator>
+<text class="title">最受欢迎的公选课排名</text>
+
+<view>
+<view wx:for="{{list}}" wx:key="list">
+  <view class="rank">{{item.rank}} {{item.course}}</view>
+</view>
+
+</view>
+
+</view>

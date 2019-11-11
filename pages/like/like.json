@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-checkbox-group": "../../dist/checkbox-group/index",
+    "i-checkbox": "../../dist/checkbox/index",
+    "Select": "../../Componet/Componet",
+    "i-card": "../../dist/card/index",
+    "i-toast": "../../dist/toast/index"
+  }
+}

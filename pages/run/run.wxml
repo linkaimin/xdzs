@@ -1,0 +1,41 @@
+<view class="item-box" style="color:#5f5f5f;font-size:30rpx">
+  <view class="items">
+      <view class="item">
+<view class="inner txt">
+      <i >我：{{Irank}}</i>
+      <image class="item-icon" mode="widthFix" src="{{Iicon}}"></image>
+       <i> {{Iname}}</i>
+          <image class="item-icon"  wx:if="{{Iimg}}"  mode="widthFix" src="../../static/{{Iimg}}.png"></image>
+      <span class="item-data">
+          <i style="color:{{Istyle}}; font-size:35rpx"> {{Ipaiwei}}</i>
+
+       <i class="rankpace"> {{Ipace}}</i>
+       
+      </span>
+      </view>
+      </view>
+       </view>
+       </view>
+       <text >总排行榜</text>
+<view class="item-box">
+  <view class="items" >
+    <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
+     
+      <view class="inner txt">
+      <i>{{item.rank}}</i>
+      <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>
+       <i> {{item.name}}</i>
+          <image class="item-icon"  wx:if="{{item.img}}"  mode="widthFix" src="../../static/{{item.img}}.png"></image>
+      <span class="item-data">
+          <i style="color:{{item.style}}; font-size:35rpx"> {{item.paiwei}}</i>
+
+       <i class="rankpace"> {{item.pace}}</i>
+       
+      </span>
+      
+      </view>
+     
+
+    </view>
+  </view>
+    </view>

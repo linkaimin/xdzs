@@ -1,0 +1,27 @@
+<text >\n</text>
+<form bindsubmit="formSubmit" id='1' bindreset="formReset">    
+<i-input name="title" type="textarea"  title="主题" autofocus placeholder="想个好标题吧！" />
+
+    <i-input name="content" type="textarea"  title="内容" placeholder="~创意的寻求者也是创意的生产者~" />
+   <i-panel title="group-水果">
+    <i-radio-group current="{{current}}" bindchange="handleFruitChange">
+        <i-radio wx:for="{{fruit}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+      <view class="big-logos">
+        <view class='big-logos_img'>
+           <image bindtap="upimg" src='http://www.ar1es.cn/cimg.png' name="files"></image> 
+      
+        </view>
+        <block wx:for="{{img_arr}}" wx:key="{{index}}"> 
+            <view class='logoinfo'>    
+              <image src='{{item}}'></image>    
+            </view>  
+        </block>    
+      </view>    
+    <text >\n</text>
+
+  <text >\n</text>
+      <button class='btn' formType="submit">发布</button>    
+</form>  

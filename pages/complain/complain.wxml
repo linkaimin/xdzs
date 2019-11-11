@@ -1,0 +1,18 @@
+<text> \n </text>
+<form bindsubmit="formSubmit">
+    <i-input name="name"  title="反馈人" type="textarea" autofocus placeholder="姓名" />
+    <i-input name="number" title="学号" type="textarea" placeholder="请输入学号" />
+    <i-input name="phoneNumber"  type="textarea" title="联系电话" placeholder="请输入手机号" />
+    <i-input name="collageMajor" type="textarea" title="学院及专业" placeholder="学院和专业简称"/>
+    <i-input name="detail" type="textarea" title="反馈内容" placeholder="请输入详细反馈内容" />
+<text> \n </text>
+<i-card title="小贴士">
+<view slot="content">在这里可以反馈学校相关问题和对学校建设的意见，请一定要详细反馈自己的想法哦，这样问题才能得到最快的解决！</view>
+</i-card>
+<text> \n </text>
+<text> \n </text>
+<text> \n </text>
+<text> \n </text>
+<button form-type="submit" type="ghost">提交</button>
+</form>
+<i-toast id="toast" />

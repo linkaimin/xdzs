@@ -1,0 +1,34 @@
+text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35rpx;
+  color:#fff;
+  font-weight: 500;
+}
+.backpicture{
+  width:100%;
+  height: 100%;
+  background: url(http://www.ar1es.cn/firstImage.jpg)no-repeat;  /*只能用网络地址*/
+  background-size: cover;
+  /*层叠布局*/
+  z-index: 0;
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+  position: absolute;
+}
+button {
+  width: 60%;
+  margin-top: 20rpx;
+  border-radius: 98rpx; 
+  font-size: 30rpx;
+  color:#fff;
+  background:#0094ff;
+
+}
+.mycard{
+  color:rgb(43, 36, 36);
+}
+
+
+   

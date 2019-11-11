@@ -1,0 +1,67 @@
+<i-notice-bar   icon="systemprompt" closable="ture" style="position:absolute;margin-left: auto;margin-right: auto;width: 750rpx;">
+ <navigator url="../timeC/timeC?name={{kind}}">      
+       {{tip}} 
+</navigator>       
+</i-notice-bar>
+<image mode="widthFix"src="http://www.ar1es.cn/BasicsBg.png"style="width: 100%; height: 243.056px;"></image>
+
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<i-grid>
+    <i-grid-item>
+    <navigator url="../run/run">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/run.png" />
+        </i-grid-icon>
+        <i-grid-label>运动王者</i-grid-label>
+        </navigator> 
+    </i-grid-item>
+    
+        <i-grid-item>
+        <navigator url="../complain/complain">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/complain.png" />
+        </i-grid-icon>
+        <i-grid-label>意见反馈</i-grid-label>
+        </navigator> 
+    </i-grid-item>
+
+        <i-grid-item>
+         <navigator url="../damage/damage">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/damage.png" />
+        </i-grid-icon>
+        <i-grid-label>损坏报修</i-grid-label>
+        </navigator> 
+    </i-grid-item>
+</i-grid>
+<i-grid>
+    <i-grid-item>
+    <navigator url="../rank/rank">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/like.png" />
+        </i-grid-icon>
+        <i-grid-label>公选课榜</i-grid-label>
+         </navigator> 
+    </i-grid-item>
+        <i-grid-item>
+        <navigator url="../time/time">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/time.png" />
+        </i-grid-icon>
+        <i-grid-label>东林时间</i-grid-label>
+        </navigator> 
+    </i-grid-item>
+
+        <i-grid-item>
+        <navigator url="../myrun/myrun">
+        <i-grid-icon>
+            <image src="http://www.ar1es.cn/myrun.png"/>
+            </i-grid-icon>
+        <i-grid-label>跑跑记录</i-grid-label>
+        </navigator> 
+    </i-grid-item>
+</i-grid>
+

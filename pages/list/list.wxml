@@ -1,0 +1,41 @@
+<view class="content">
+  <view class="bg">
+    <view class="name">创意集</view>
+    <form  bindsubmit="formSubmit">
+           <view class="search">
+       <button class='find' form-type="submit" style="width:50px;height:30x">
+        查询
+        </button>
+         <input type="text" name="find" placeholder="帖子名称" form-type="submit"/>
+   
+    <button class='btn' bindtap="img" >发帖</button>
+  
+    </view>
+     
+  </form>  
+  </view>
+  </view>  
+ 
+<view wx:for="{{list}}" wx:key="list">
+<navigator url="../detail/detail?id={{item.id}}" open-type="navigate" >
+  <view class="title">【{{item.category}}】{{item.title}}</view>
+  <view class="pic">
+  <image style="width:30%;height:69px;" src="{{item.pic}}"/>
+   
+  <view class="info">
+    <view class="desc">
+
+       <text>{{item.commentNumber}}条评论</text>
+       <text>{{item.time}}</text>
+       <text>楼主：{{item.writer}}</text>
+
+    <view class="opr">
+
+    </view>
+  </view>
+  </view>
+</view>
+<view class="hr"></view>
+</navigator>
+</view>
+

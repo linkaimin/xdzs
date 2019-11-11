@@ -1,0 +1,68 @@
+<view class="content" wx:for="{{list}}"  wx:key="{{index}}" >
+  <view class="title">【{{item.category}}】{{item.title}}</view>
+  <view class="desc">
+    <view class="publish">
+      <view>
+<image src="{{item.icon}}"style="width:36px;height:36px;"></image>
+<image class="run" mode="widthFix" src="../../static/{{item.userPaiweiImg}}.png"></image>
+</view>
+      <view class="company">
+        <view>{{item.writer}}</view>
+
+        <view class="attr">
+           <text class="mark">{{class}}</text>
+           <text class="time">{{item.time}}</text>
+        </view>
+     
+      </view>
+    </view>
+  </view>
+  
+  <view class="article">
+
+    {{item.content}}
+   
+  </view>
+  <view class="img" >
+      <image style="height：100%" mode="aspectFit" src="{{item.pic}}">
+        </image>
+  </view>
+   </view>
+
+    <view class="answer-feed" wx:for="{{listPL}}"  wx:key="{{index}}">
+ <view style=" weight:100%;height:10rpx; background-color:#0094ff;overflow: hidden;display: inline-block;text-align: justify;text-align-last: justify;"></view>
+        <view  bindtap="bindItemTap" class="feed-item">
+                    <image class="icon"  src="{{item.icon}}"></image>
+                     <image class="run" mode="widthFix" src="../../static/{{item.userPaiweiImg}}.png"></image>
+                    <text>{{item.writer}}</text>
+            <view class="feed-content">
+                <view class="answer-body">
+                
+
+                    <view>
+                  <text class="answer-txt">{{item.content}}</text>
+                    </view>
+                    <view class="answer-actions">
+                        
+                        <view class="time">
+                        <a>{{item.time}}</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+</view>
+<text >\n</text>
+<text >\n</text>
+  <form bindsubmit="formSubmit">
+  <view class="comment">
+    <view class="write"><input type="textarea" name="pinglun" placeholder="写评论..."/></view>
+    <view class="opr">
+       <button class="sumbit" form-type="submit">评论</button>
+    </view>
+  </view>
+ </form> 
+ <i-toast id="toast" />
+
+

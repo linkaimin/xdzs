@@ -1,0 +1,42 @@
+
+
+.img{
+    width: 150rpx;
+    height: 150rpx;
+    padding: 100rpx;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;   
+
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    padding: 10rpx;
+    justify-content: space-between;
+    
+}
+
+text{
+    font-style: 22rpx;
+    color: #4153419f;
+    justify-content: center;
+    align-items: center;    
+
+}
+.backpicture{
+    width:100%;
+    height: 100%;
+    background: url(http://www.ar1es.cn/bg2.jpg)no-repeat;  /*只能用网络地址*/
+    background-size: cover;
+    /*层叠布局*/
+    z-index: 0;
+    /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+   
+    position:absolute;
+  }
+  .time{
+    flex-direction:row-reverse;
+  }

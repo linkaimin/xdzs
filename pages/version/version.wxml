@@ -1,0 +1,11 @@
+<text >\n</text>
+<i-card title="当前版本" extra="{{v_version}}" >
+    <view slot="content">
+    <text >\n</text>
+     {{version}}
+     <text >\n</text>
+     <text >\n</text>
+    </view>
+    <text >\n</text>
+    <view slot="footer"></view>
+</i-card>
