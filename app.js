@@ -35,7 +35,6 @@ App({
     },
     globalData: {
       userInfo: null,
-      url: "https://www.nefulalala.com/"
+      url: ""
     }
   })
-  // "https://www.nefulalala.com/"
