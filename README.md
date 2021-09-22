@@ -1,1 +1,1 @@
-#   大二时写的人生的第一个前端作品，很多地方写的不是那么好，求见谅
+The first front-end work of life written in sophomore year. Some contents are not so good. Welcome to correct
